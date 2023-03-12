@@ -1,0 +1,1875 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='merged_dataset_final' inline='true' name='federated.1xm3iba1bra49411vo8vt0flm9gm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='merged_dataset_final' name='textscan.1lp0r1o1f6153x1014w2y0echlt3'>
+            <connection class='textscan' directory='/Users/adel/Desktop/Final_project_Flow/GITHUB/Mysql Extracts' filename='merged_dataset_final.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1lp0r1o1f6153x1014w2y0echlt3' name='merged_dataset_final.csv' table='[merged_dataset_final#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+            <column datatype='datetime' name='Datetime' ordinal='0' />
+            <column datatype='date' name='date' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='integer' name='Month' ordinal='3' />
+            <column datatype='integer' name='Day' ordinal='4' />
+            <column datatype='integer' name='Hour' ordinal='5' />
+            <column datatype='integer' name='Weekday' ordinal='6' />
+            <column datatype='integer' name='Consumption (MW)' ordinal='7' />
+            <column datatype='integer' name='Fuel oil (MW)' ordinal='8' />
+            <column datatype='integer' name='Coal (MW)' ordinal='9' />
+            <column datatype='integer' name='Gas (MW)' ordinal='10' />
+            <column datatype='integer' name='Nuclear (MW)' ordinal='11' />
+            <column datatype='integer' name='Wind (MW)' ordinal='12' />
+            <column datatype='integer' name='Solar (MW)' ordinal='13' />
+            <column datatype='integer' name='Hydroelectric (MW)' ordinal='14' />
+            <column datatype='integer' name='Pumped storage (MW)' ordinal='15' />
+            <column datatype='integer' name='Bioenergy (MW)' ordinal='16' />
+            <column datatype='integer' name='Physical exchanges (MW)' ordinal='17' />
+            <column datatype='integer' name='CO2 emissions intensity (g/kWh)' ordinal='18' />
+            <column datatype='integer' name='Trading with England (MW)' ordinal='19' />
+            <column datatype='integer' name='Trading with Spain (MW)' ordinal='20' />
+            <column datatype='integer' name='Trading with Italy (MW)' ordinal='21' />
+            <column datatype='integer' name='Trading with Switzerland (MW)' ordinal='22' />
+            <column datatype='integer' name='Trading with Germany-Belgium (MW)' ordinal='23' />
+            <column datatype='integer' name='Flag Holiday' ordinal='24' />
+            <column datatype='real' name='Average temperature (°C)' ordinal='25' />
+            <column datatype='real' name='Reference temperature (°C)' ordinal='26' />
+            <column datatype='real' name='Temperature Deviation (°C)' ordinal='27' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1lp0r1o1f6153x1014w2y0echlt3' name='merged_dataset_final.csv' table='[merged_dataset_final#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+            <column datatype='datetime' name='Datetime' ordinal='0' />
+            <column datatype='date' name='date' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='integer' name='Month' ordinal='3' />
+            <column datatype='integer' name='Day' ordinal='4' />
+            <column datatype='integer' name='Hour' ordinal='5' />
+            <column datatype='integer' name='Weekday' ordinal='6' />
+            <column datatype='integer' name='Consumption (MW)' ordinal='7' />
+            <column datatype='integer' name='Fuel oil (MW)' ordinal='8' />
+            <column datatype='integer' name='Coal (MW)' ordinal='9' />
+            <column datatype='integer' name='Gas (MW)' ordinal='10' />
+            <column datatype='integer' name='Nuclear (MW)' ordinal='11' />
+            <column datatype='integer' name='Wind (MW)' ordinal='12' />
+            <column datatype='integer' name='Solar (MW)' ordinal='13' />
+            <column datatype='integer' name='Hydroelectric (MW)' ordinal='14' />
+            <column datatype='integer' name='Pumped storage (MW)' ordinal='15' />
+            <column datatype='integer' name='Bioenergy (MW)' ordinal='16' />
+            <column datatype='integer' name='Physical exchanges (MW)' ordinal='17' />
+            <column datatype='integer' name='CO2 emissions intensity (g/kWh)' ordinal='18' />
+            <column datatype='integer' name='Trading with England (MW)' ordinal='19' />
+            <column datatype='integer' name='Trading with Spain (MW)' ordinal='20' />
+            <column datatype='integer' name='Trading with Italy (MW)' ordinal='21' />
+            <column datatype='integer' name='Trading with Switzerland (MW)' ordinal='22' />
+            <column datatype='integer' name='Trading with Germany-Belgium (MW)' ordinal='23' />
+            <column datatype='integer' name='Flag Holiday' ordinal='24' />
+            <column datatype='real' name='Average temperature (°C)' ordinal='25' />
+            <column datatype='real' name='Reference temperature (°C)' ordinal='26' />
+            <column datatype='real' name='Temperature Deviation (°C)' ordinal='27' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Datetime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Datetime]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Datetime</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hour</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hour]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Hour</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weekday</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weekday]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Weekday</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Consumption (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Consumption (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Consumption (MW)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fuel oil (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fuel oil (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Fuel oil (MW)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coal (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Coal (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Coal (MW)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gas (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gas (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Gas (MW)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nuclear (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nuclear (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Nuclear (MW)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wind (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Wind (MW)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Solar (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Solar (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Solar (MW)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hydroelectric (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hydroelectric (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Hydroelectric (MW)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pumped storage (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pumped storage (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Pumped storage (MW)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bioenergy (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Bioenergy (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Bioenergy (MW)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Physical exchanges (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Physical exchanges (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Physical exchanges (MW)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2 emissions intensity (g/kWh)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CO2 emissions intensity (g/kWh)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>CO2 emissions intensity (g/kWh)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trading with England (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Trading with England (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Trading with England (MW)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trading with Spain (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Trading with Spain (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Trading with Spain (MW)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trading with Italy (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Trading with Italy (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Trading with Italy (MW)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trading with Switzerland (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Trading with Switzerland (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Trading with Switzerland (MW)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Trading with Germany-Belgium (MW)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Trading with Germany-Belgium (MW)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Trading with Germany-Belgium (MW)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flag Holiday</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Flag Holiday]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Flag Holiday</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average temperature (°C)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average temperature (°C)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Average temperature (°C)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reference temperature (°C)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reference temperature (°C)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Reference temperature (°C)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature Deviation (°C)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature Deviation (°C)]</local-name>
+            <parent-name>[merged_dataset_final.csv]</parent-name>
+            <remote-alias>Temperature Deviation (°C)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Average temperature (°C)]' role='measure' type='quantitative' />
+      <column caption='% Bioenergy (MW)' datatype='real' name='[Bioenergy (MW) (copie)_3927561091311251458]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Bioenergy (MW)]/[Consumption (MW)]' />
+      </column>
+      <column datatype='integer' name='[Bioenergy (MW)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[CO2 emissions intensity (g/kWh)]' role='measure' type='quantitative' />
+      <column caption='ID' datatype='integer' name='[Calculation_3927561091022172160]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='% Coal (MW)' datatype='real' name='[Coal (MW) (copie)_3927561091312316419]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Coal (MW)]/[Consumption (MW)]' />
+      </column>
+      <column datatype='integer' name='[Coal (MW)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Consumption (MW)]' role='measure' type='quantitative' />
+      <column datatype='datetime' name='[Datetime]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Day]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Flag Holiday]' role='measure' type='quantitative' />
+      <column caption='% Fuel oil (MW)' datatype='real' name='[Fuel oil (MW) (copie)_3927561091313262596]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Fuel oil (MW)]/[Consumption (MW)]' />
+      </column>
+      <column datatype='integer' name='[Fuel oil (MW)]' role='measure' type='quantitative' />
+      <column caption='% Gas (MW)' datatype='real' name='[Gas (MW) (copie)_3927561091313610757]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Gas (MW)]/[Consumption (MW)]' />
+      </column>
+      <column datatype='integer' name='[Gas (MW)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Hour]' role='measure' type='quantitative' />
+      <column caption='% Hydroelectric (MW)' datatype='real' name='[Hydroelectric (MW) (copie)_3927561091313827846]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Hydroelectric (MW)]/[Consumption (MW)]' />
+      </column>
+      <column datatype='integer' name='[Hydroelectric (MW)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='% Nuclear (MW)' datatype='real' name='[Nuclear (MW) (copie)_3927561091314044935]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Nuclear (MW)]/[Consumption (MW)]' />
+      </column>
+      <column datatype='integer' name='[Nuclear (MW)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Physical exchanges (MW)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Pumped storage (MW)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Reference temperature (°C)]' role='measure' type='quantitative' />
+      <column caption='% Solar (MW)' datatype='real' name='[Solar (MW) (copie)_3927561091314745352]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Solar (MW)]/[Consumption (MW)]' />
+      </column>
+      <column datatype='integer' name='[Solar (MW)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Temperature Deviation (°C)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Trading with England (MW)]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Germany &amp; Belgium' datatype='integer' name='[Trading with Germany-Belgium (MW)]' role='dimension' semantic-role='[Country].[Name]' type='ordinal' />
+      <column aggregation='Sum' caption='Italy' datatype='integer' name='[Trading with Italy (MW)]' role='dimension' semantic-role='[Country].[Name]' type='ordinal' />
+      <column aggregation='Sum' caption='Spain' datatype='integer' name='[Trading with Spain (MW)]' role='dimension' semantic-role='[Country].[Name]' type='ordinal' />
+      <column aggregation='Sum' caption='Switzerland' datatype='integer' name='[Trading with Switzerland (MW)]' role='dimension' semantic-role='[Country].[Name]' type='ordinal' />
+      <column datatype='integer' name='[Weekday]' role='measure' type='quantitative' />
+      <column caption='% Wind (MW)' datatype='real' name='[Wind (MW) (copie)_3927561091315032073]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Wind (MW)]/[Consumption (MW)]' />
+      </column>
+      <column datatype='integer' name='[Wind (MW)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='merged_dataset_final.csv' datatype='table' name='[__tableau_internal_object_id__].[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column-instance column='[__tableau_internal_object_id__].[merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Bioenergy (MW) (copie)_3927561091311251458]' derivation='Avg' name='[avg:Bioenergy (MW) (copie)_3927561091311251458:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Bioenergy (MW)]' derivation='Avg' name='[avg:Bioenergy (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Coal (MW) (copie)_3927561091312316419]' derivation='Avg' name='[avg:Coal (MW) (copie)_3927561091312316419:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Coal (MW)]' derivation='Avg' name='[avg:Coal (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fuel oil (MW) (copie)_3927561091313262596]' derivation='Avg' name='[avg:Fuel oil (MW) (copie)_3927561091313262596:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fuel oil (MW)]' derivation='Avg' name='[avg:Fuel oil (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gas (MW) (copie)_3927561091313610757]' derivation='Avg' name='[avg:Gas (MW) (copie)_3927561091313610757:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gas (MW)]' derivation='Avg' name='[avg:Gas (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hydroelectric (MW) (copie)_3927561091313827846]' derivation='Avg' name='[avg:Hydroelectric (MW) (copie)_3927561091313827846:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hydroelectric (MW)]' derivation='Avg' name='[avg:Hydroelectric (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nuclear (MW) (copie)_3927561091314044935]' derivation='Avg' name='[avg:Nuclear (MW) (copie)_3927561091314044935:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nuclear (MW)]' derivation='Avg' name='[avg:Nuclear (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pumped storage (MW)]' derivation='Avg' name='[avg:Pumped storage (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Solar (MW) (copie)_3927561091314745352]' derivation='Avg' name='[avg:Solar (MW) (copie)_3927561091314745352:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Solar (MW)]' derivation='Avg' name='[avg:Solar (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Trading with Germany-Belgium (MW)]' derivation='Avg' name='[avg:Trading with Germany-Belgium (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Trading with Italy (MW)]' derivation='Avg' name='[avg:Trading with Italy (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Trading with Spain (MW)]' derivation='Avg' name='[avg:Trading with Spain (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Trading with Switzerland (MW)]' derivation='Avg' name='[avg:Trading with Switzerland (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wind (MW) (copie)_3927561091315032073]' derivation='Avg' name='[avg:Wind (MW) (copie)_3927561091315032073:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wind (MW)]' derivation='Avg' name='[avg:Wind (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Bioenergy (MW)]' derivation='Avg' forecast-column-base='[avg:Bioenergy (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Bioenergy (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Coal (MW)]' derivation='Avg' forecast-column-base='[avg:Coal (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Coal (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fuel oil (MW)]' derivation='Avg' forecast-column-base='[avg:Fuel oil (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Fuel oil (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gas (MW)]' derivation='Avg' forecast-column-base='[avg:Gas (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Gas (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hydroelectric (MW)]' derivation='Avg' forecast-column-base='[avg:Hydroelectric (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Hydroelectric (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nuclear (MW)]' derivation='Avg' forecast-column-base='[avg:Nuclear (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Nuclear (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Solar (MW)]' derivation='Avg' forecast-column-base='[avg:Solar (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Solar (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wind (MW)]' derivation='Avg' forecast-column-base='[avg:Wind (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Wind (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fuel oil (MW)]' derivation='Sum' forecast-column-base='[sum:Fuel oil (MW):qk]' forecast-column-type='forecast-value' name='[fVal:sum:Fuel oil (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gas (MW)]' derivation='Sum' forecast-column-base='[sum:Gas (MW):qk]' forecast-column-type='forecast-value' name='[fVal:sum:Gas (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hydroelectric (MW)]' derivation='Sum' forecast-column-base='[sum:Hydroelectric (MW):qk]' forecast-column-type='forecast-value' name='[fVal:sum:Hydroelectric (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nuclear (MW)]' derivation='Sum' forecast-column-base='[sum:Nuclear (MW):qk]' forecast-column-type='forecast-value' name='[fVal:sum:Nuclear (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Solar (MW)]' derivation='Sum' forecast-column-base='[sum:Solar (MW):qk]' forecast-column-type='forecast-value' name='[fVal:sum:Solar (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wind (MW)]' derivation='Sum' forecast-column-base='[sum:Wind (MW):qk]' forecast-column-type='forecast-value' name='[fVal:sum:Wind (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Average temperature (°C)]' derivation='Sum' name='[sum:Average temperature (°C):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Bioenergy (MW)]' derivation='Sum' name='[sum:Bioenergy (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[CO2 emissions intensity (g/kWh)]' derivation='Sum' name='[sum:CO2 emissions intensity (g/kWh):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_3927561091022172160]' derivation='Sum' name='[sum:Calculation_3927561091022172160:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Coal (MW)]' derivation='Sum' name='[sum:Coal (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Consumption (MW)]' derivation='Sum' name='[sum:Consumption (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Flag Holiday]' derivation='Sum' name='[sum:Flag Holiday:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fuel oil (MW) (copie)_3927561091313262596]' derivation='Sum' name='[sum:Fuel oil (MW) (copie)_3927561091313262596:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fuel oil (MW)]' derivation='Sum' name='[sum:Fuel oil (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gas (MW) (copie)_3927561091313610757]' derivation='Sum' name='[sum:Gas (MW) (copie)_3927561091313610757:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Gas (MW)]' derivation='Sum' name='[sum:Gas (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hour]' derivation='Sum' name='[sum:Hour:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hydroelectric (MW) (copie)_3927561091313827846]' derivation='Sum' name='[sum:Hydroelectric (MW) (copie)_3927561091313827846:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hydroelectric (MW)]' derivation='Sum' name='[sum:Hydroelectric (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nuclear (MW) (copie)_3927561091314044935]' derivation='Sum' name='[sum:Nuclear (MW) (copie)_3927561091314044935:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nuclear (MW)]' derivation='Sum' name='[sum:Nuclear (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Physical exchanges (MW)]' derivation='Sum' name='[sum:Physical exchanges (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pumped storage (MW)]' derivation='Sum' name='[sum:Pumped storage (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Reference temperature (°C)]' derivation='Sum' name='[sum:Reference temperature (°C):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Solar (MW) (copie)_3927561091314745352]' derivation='Sum' name='[sum:Solar (MW) (copie)_3927561091314745352:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Solar (MW)]' derivation='Sum' name='[sum:Solar (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Temperature Deviation (°C)]' derivation='Sum' name='[sum:Temperature Deviation (°C):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Trading with England (MW)]' derivation='Sum' name='[sum:Trading with England (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Trading with Germany-Belgium (MW)]' derivation='Sum' name='[sum:Trading with Germany-Belgium (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Trading with Switzerland (MW)]' derivation='Sum' name='[sum:Trading with Switzerland (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Weekday]' derivation='Sum' name='[sum:Weekday:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wind (MW) (copie)_3927561091315032073]' derivation='Sum' name='[sum:Wind (MW) (copie)_3927561091315032073:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wind (MW)]' derivation='Sum' name='[sum:Wind (MW):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Datetime]' derivation='Year-Trunc' name='[tyr:Datetime:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[tyr:Datetime:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>#2012-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>#2016-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>#2015-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>#2020-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>#2018-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>#2021-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>#2014-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>#2017-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>#2013-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>#2022-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>#2019-01-01 00:00:00#</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Forecast Indicator:nk]' palette='green_10_0' type='palette'>
+            <map to='#24693d'>
+              <bucket>&quot;Estimation&quot;</bucket>
+            </map>
+            <map to='#b3e0a6'>
+              <bucket>&quot;Réel&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' palette='tableau10_10_0' type='palette'>
+            <map to='#1170aa'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Bioenergy (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#1170aa'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Average temperature (°C):qk]&quot;</bucket>
+            </map>
+            <map to='#1170aa'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Trading with Switzerland (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Bioenergy (MW) (copie)_3927561091311251458:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Bioenergy (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Hydroelectric (MW) (copie)_3927561091313827846:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Hydroelectric (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Hydroelectric (MW) (copie)_3927561091313827846:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Italy (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Bioenergy (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Gas (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Nuclear (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Pumped storage (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:sum:Fuel oil (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#5fa2ce'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Hydroelectric (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#5fa2ce'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Consumption (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#5fa2ce'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Reference temperature (°C):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Germany-Belgium (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#7b848f'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Solar (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#7b848f'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Fuel oil (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#7b848f'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Temperature Deviation (°C):qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Wind (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Nuclear (MW) (copie)_3927561091314044935:qk]&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Nuclear (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Nuclear (MW) (copie)_3927561091314044935:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:sum:Solar (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Fuel oil (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:CO2 emissions intensity (g/kWh):qk]&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Physical exchanges (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Wind (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#a3cce9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[__tableau_internal_object_id__].[cnt:merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F:qk]&quot;</bucket>
+            </map>
+            <map to='#a3cce9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Wind (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#a3cce9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Gas (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Coal (MW) (copie)_3927561091312316419:qk]&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Coal (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:sum:Hydroelectric (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:sum:Wind (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#c85200'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Nuclear (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#c85200'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Flag Holiday:qk]&quot;</bucket>
+            </map>
+            <map to='#c85200'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Solar (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#c8d0d9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Hydroelectric (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#c8d0d9'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Trading with Germany-Belgium (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Pumped storage (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Solar (MW) (copie)_3927561091314745352:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Solar (MW) (copie)_3927561091314745352:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Switzerland (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:sum:Gas (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Spain (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Coal (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#fc7d0b'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Coal (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#fc7d0b'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Calculation_3927561091022172160:qk]&quot;</bucket>
+            </map>
+            <map to='#fc7d0b'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Weekday:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Fuel oil (MW) (copie)_3927561091313262596:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Fuel oil (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Fuel oil (MW) (copie)_3927561091313262596:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Solar (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Wind (MW) (copie)_3927561091315032073:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Wind (MW) (copie)_3927561091315032073:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:sum:Nuclear (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Gas (MW) (copie)_3927561091313610757:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Gas (MW):qk]&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Gas (MW) (copie)_3927561091313610757:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbc79'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Hour:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbc79'>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[sum:Trading with England (MW):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Réel&quot;</bucket>
+            <bucket>&quot;Estimation&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='merged_dataset_final.csv' id='merged_dataset_final.csv_A563CBD9B9D54D01B5B3C850DE3F6F8F'>
+            <properties context=''>
+              <relation connection='textscan.1lp0r1o1f6153x1014w2y0echlt3' name='merged_dataset_final.csv' table='[merged_dataset_final#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+                  <column datatype='datetime' name='Datetime' ordinal='0' />
+                  <column datatype='date' name='date' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='integer' name='Month' ordinal='3' />
+                  <column datatype='integer' name='Day' ordinal='4' />
+                  <column datatype='integer' name='Hour' ordinal='5' />
+                  <column datatype='integer' name='Weekday' ordinal='6' />
+                  <column datatype='integer' name='Consumption (MW)' ordinal='7' />
+                  <column datatype='integer' name='Fuel oil (MW)' ordinal='8' />
+                  <column datatype='integer' name='Coal (MW)' ordinal='9' />
+                  <column datatype='integer' name='Gas (MW)' ordinal='10' />
+                  <column datatype='integer' name='Nuclear (MW)' ordinal='11' />
+                  <column datatype='integer' name='Wind (MW)' ordinal='12' />
+                  <column datatype='integer' name='Solar (MW)' ordinal='13' />
+                  <column datatype='integer' name='Hydroelectric (MW)' ordinal='14' />
+                  <column datatype='integer' name='Pumped storage (MW)' ordinal='15' />
+                  <column datatype='integer' name='Bioenergy (MW)' ordinal='16' />
+                  <column datatype='integer' name='Physical exchanges (MW)' ordinal='17' />
+                  <column datatype='integer' name='CO2 emissions intensity (g/kWh)' ordinal='18' />
+                  <column datatype='integer' name='Trading with England (MW)' ordinal='19' />
+                  <column datatype='integer' name='Trading with Spain (MW)' ordinal='20' />
+                  <column datatype='integer' name='Trading with Italy (MW)' ordinal='21' />
+                  <column datatype='integer' name='Trading with Switzerland (MW)' ordinal='22' />
+                  <column datatype='integer' name='Trading with Germany-Belgium (MW)' ordinal='23' />
+                  <column datatype='integer' name='Flag Holiday' ordinal='24' />
+                  <column datatype='real' name='Average temperature (°C)' ordinal='25' />
+                  <column datatype='real' name='Reference temperature (°C)' ordinal='26' />
+                  <column datatype='real' name='Temperature Deviation (°C)' ordinal='27' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Surligner 1 (généré) 1' name='[Action2_1C9C0A82235B4F2C990E3E6BA58148E9]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Average Energy Consumption (MW) in France by Source' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Noms de mesures' />
+        <param name='target' value='Average Energy Consumption (MW) in France by Source' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='AVG Energy Consuption By Hour'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='10'>Average Energy Consumption (MW) By Hour in France</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_dataset_final' name='federated.1xm3iba1bra49411vo8vt0flm9gm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xm3iba1bra49411vo8vt0flm9gm'>
+            <column datatype='integer' name='[Consumption (MW)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Datetime]' role='dimension' type='ordinal' />
+            <column-instance column='[Consumption (MW)]' derivation='Avg' name='[avg:Consumption (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='Hour' name='[hr:Datetime:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='rows' value='#ffffff' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#ffffff' />
+            <format attr='color' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]' palette='tableau-map-blue-green' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]' />
+              <text column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[hr:Datetime:ok]' />
+              <text column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='1' />
+                <format attr='line-visibility' value='on' />
+                <format attr='line-pattern-only' value='solid' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]</rows>
+        <cols>[federated.1xm3iba1bra49411vo8vt0flm9gm].[hr:Datetime:ok]</cols>
+      </table>
+      <simple-id uuid='{197E2A3C-2E07-4C8A-96E3-E5032DE38804}' />
+    </worksheet>
+    <worksheet name='AVG Energy Consuption By Month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='10'>Average Energy Consuption (MW) By Month in France</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_dataset_final' name='federated.1xm3iba1bra49411vo8vt0flm9gm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xm3iba1bra49411vo8vt0flm9gm'>
+            <column datatype='integer' name='[Consumption (MW)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Datetime]' role='dimension' type='ordinal' />
+            <column-instance column='[Consumption (MW)]' derivation='Avg' name='[avg:Consumption (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='Month' name='[mn:Datetime:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='rows' value='#ffffff' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#ffffff' />
+            <format attr='color' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]' palette='tableau-map-blue-green' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]' />
+              <text column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[mn:Datetime:ok]' />
+              <text column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]</rows>
+        <cols>[federated.1xm3iba1bra49411vo8vt0flm9gm].[mn:Datetime:ok]</cols>
+      </table>
+      <simple-id uuid='{B2B62461-37BC-4CF6-A2BC-CC9CE588B259}' />
+    </worksheet>
+    <worksheet name='Average Energy Consumption (MW) in France'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='10'>Average Energy Consumption (MW) in France </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_dataset_final' name='federated.1xm3iba1bra49411vo8vt0flm9gm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1xm3iba1bra49411vo8vt0flm9gm'>
+            <column datatype='integer' name='[CO2 emissions intensity (g/kWh)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Consumption (MW)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Datetime]' role='dimension' type='ordinal' />
+            <column-instance column='[CO2 emissions intensity (g/kWh)]' derivation='Avg' name='[avg:CO2 emissions intensity (g/kWh):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Consumption (MW)]' derivation='Avg' name='[avg:Consumption (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CO2 emissions intensity (g/kWh)]' derivation='Avg' forecast-column-base='[avg:CO2 emissions intensity (g/kWh):qk]' forecast-column-type='forecast-value' name='[fVal:avg:CO2 emissions intensity (g/kWh):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Consumption (MW)]' derivation='Avg' forecast-column-base='[avg:Consumption (MW):qk]' forecast-column-type='forecast-value' name='[fVal:avg:Consumption (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='None' name='[none:Datetime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='Month-Trunc' name='[tmn:Datetime:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[none:Datetime:qk]' included-values='in-range'>
+            <min>#2012-01-01 00:00:00#</min>
+            <max>#2022-05-31 23:30:00#</max>
+          </filter>
+          <slices>
+            <column>[federated.1xm3iba1bra49411vo8vt0flm9gm].[none:Datetime:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Consumption (MW):qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='rows' value='#ffffff' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#ffffff' />
+            <format attr='color' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Consumption (MW):qk]' palette='tableau-map-blue-green' type='interpolated' />
+            <encoding attr='color' field='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:CO2 emissions intensity (g/kWh):qk]' palette='orange_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-color' value='#ffbe7d' />
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='dashed' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' value='dashed' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <dropline drop-when='selected' haslabel='true' x-axis='true' y-axis='true' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Consumption (MW):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Consumption (MW):qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='true' x-axis='true' y-axis='true' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-color' value='#8cd17d67' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:CO2 emissions intensity (g/kWh):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:CO2 emissions intensity (g/kWh):qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='true' x-axis='true' y-axis='true' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-color' value='#ffbe7d67' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Consumption (MW):qk] + [federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:CO2 emissions intensity (g/kWh):qk])</rows>
+        <cols>[federated.1xm3iba1bra49411vo8vt0flm9gm].[tmn:Datetime:qk]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-type='auto' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{B346387F-73FE-4C25-A96F-D5803EC9E82D}' />
+    </worksheet>
+    <worksheet name='Average Energy Consumption (MW) in France by Source'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='10'>Average Energy Consumption (MW) in France by Source</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_dataset_final' name='federated.1xm3iba1bra49411vo8vt0flm9gm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1xm3iba1bra49411vo8vt0flm9gm'>
+            <column datatype='integer' name='[Bioenergy (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Coal (MW)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Datetime]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Fuel oil (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Gas (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Hydroelectric (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Nuclear (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Solar (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wind (MW)]' role='measure' type='quantitative' />
+            <column-instance column='[Bioenergy (MW)]' derivation='Avg' name='[avg:Bioenergy (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Coal (MW)]' derivation='Avg' name='[avg:Coal (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fuel oil (MW)]' derivation='Avg' name='[avg:Fuel oil (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gas (MW)]' derivation='Avg' name='[avg:Gas (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hydroelectric (MW)]' derivation='Avg' name='[avg:Hydroelectric (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nuclear (MW)]' derivation='Avg' name='[avg:Nuclear (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Solar (MW)]' derivation='Avg' name='[avg:Solar (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wind (MW)]' derivation='Avg' name='[avg:Wind (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='None' name='[none:Datetime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='Year-Trunc' name='[tyr:Datetime:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Bioenergy (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Coal (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Fuel oil (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Gas (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Hydroelectric (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Nuclear (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Solar (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Wind (MW):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[none:Datetime:qk]' included-values='in-range'>
+            <min>#2012-01-01 00:00:00#</min>
+            <max>#2022-05-31 23:30:00#</max>
+          </filter>
+          <slices>
+            <column>[federated.1xm3iba1bra49411vo8vt0flm9gm].[none:Datetime:qk]</column>
+            <column>[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='rows' value='#ffffff' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#ffffff' />
+            <format attr='color' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-color' value='#ffbe7d' />
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='dashed' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' value='dashed' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' />
+              <text column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1xm3iba1bra49411vo8vt0flm9gm].[Multiple Values]</rows>
+        <cols>[federated.1xm3iba1bra49411vo8vt0flm9gm].[tyr:Datetime:qk]</cols>
+      </table>
+      <simple-id uuid='{F1B112E8-D987-4CCC-B797-E674BDA65DE5}' />
+    </worksheet>
+    <worksheet name='Average Energy Consumption (MW) in France by Source (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontsize='10'>Energy Sources Proportion in France</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_dataset_final' name='federated.1xm3iba1bra49411vo8vt0flm9gm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1xm3iba1bra49411vo8vt0flm9gm'>
+            <column caption='% Bioenergy (MW)' datatype='real' name='[Bioenergy (MW) (copie)_3927561091311251458]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Bioenergy (MW)]/[Consumption (MW)]' />
+            </column>
+            <column datatype='integer' name='[Bioenergy (MW)]' role='measure' type='quantitative' />
+            <column caption='% Coal (MW)' datatype='real' name='[Coal (MW) (copie)_3927561091312316419]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Coal (MW)]/[Consumption (MW)]' />
+            </column>
+            <column datatype='integer' name='[Coal (MW)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Consumption (MW)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Datetime]' role='dimension' type='ordinal' />
+            <column caption='% Fuel oil (MW)' datatype='real' name='[Fuel oil (MW) (copie)_3927561091313262596]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Fuel oil (MW)]/[Consumption (MW)]' />
+            </column>
+            <column datatype='integer' name='[Fuel oil (MW)]' role='measure' type='quantitative' />
+            <column caption='% Gas (MW)' datatype='real' name='[Gas (MW) (copie)_3927561091313610757]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Gas (MW)]/[Consumption (MW)]' />
+            </column>
+            <column datatype='integer' name='[Gas (MW)]' role='measure' type='quantitative' />
+            <column caption='% Hydroelectric (MW)' datatype='real' name='[Hydroelectric (MW) (copie)_3927561091313827846]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Hydroelectric (MW)]/[Consumption (MW)]' />
+            </column>
+            <column datatype='integer' name='[Hydroelectric (MW)]' role='measure' type='quantitative' />
+            <column caption='% Nuclear (MW)' datatype='real' name='[Nuclear (MW) (copie)_3927561091314044935]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Nuclear (MW)]/[Consumption (MW)]' />
+            </column>
+            <column datatype='integer' name='[Nuclear (MW)]' role='measure' type='quantitative' />
+            <column caption='% Solar (MW)' datatype='real' name='[Solar (MW) (copie)_3927561091314745352]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Solar (MW)]/[Consumption (MW)]' />
+            </column>
+            <column datatype='integer' name='[Solar (MW)]' role='measure' type='quantitative' />
+            <column caption='% Wind (MW)' datatype='real' name='[Wind (MW) (copie)_3927561091315032073]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Wind (MW)]/[Consumption (MW)]' />
+            </column>
+            <column datatype='integer' name='[Wind (MW)]' role='measure' type='quantitative' />
+            <column-instance column='[Bioenergy (MW) (copie)_3927561091311251458]' derivation='Avg' name='[avg:Bioenergy (MW) (copie)_3927561091311251458:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Coal (MW) (copie)_3927561091312316419]' derivation='Avg' name='[avg:Coal (MW) (copie)_3927561091312316419:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fuel oil (MW) (copie)_3927561091313262596]' derivation='Avg' name='[avg:Fuel oil (MW) (copie)_3927561091313262596:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gas (MW) (copie)_3927561091313610757]' derivation='Avg' name='[avg:Gas (MW) (copie)_3927561091313610757:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hydroelectric (MW) (copie)_3927561091313827846]' derivation='Avg' name='[avg:Hydroelectric (MW) (copie)_3927561091313827846:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nuclear (MW) (copie)_3927561091314044935]' derivation='Avg' name='[avg:Nuclear (MW) (copie)_3927561091314044935:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Solar (MW) (copie)_3927561091314745352]' derivation='Avg' name='[avg:Solar (MW) (copie)_3927561091314745352:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wind (MW) (copie)_3927561091315032073]' derivation='Avg' name='[avg:Wind (MW) (copie)_3927561091315032073:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='None' name='[none:Datetime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='Year-Trunc' name='[tyr:Datetime:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Bioenergy (MW) (copie)_3927561091311251458:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Coal (MW) (copie)_3927561091312316419:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Fuel oil (MW) (copie)_3927561091313262596:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Gas (MW) (copie)_3927561091313610757:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Hydroelectric (MW) (copie)_3927561091313827846:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Nuclear (MW) (copie)_3927561091314044935:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Solar (MW) (copie)_3927561091314745352:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Wind (MW) (copie)_3927561091315032073:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[none:Datetime:qk]' included-values='in-range'>
+            <min>#2012-01-01 00:00:00#</min>
+            <max>#2022-05-31 23:30:00#</max>
+          </filter>
+          <slices>
+            <column>[federated.1xm3iba1bra49411vo8vt0flm9gm].[none:Datetime:qk]</column>
+            <column>[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='rows' value='#ffffff' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' scope='rows' value='#00000000' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#ffffff' />
+            <format attr='color' scope='cols' value='#ffffff' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Bioenergy (MW) (copie)_3927561091311251458:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-color' value='#ffbe7d' />
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='dashed' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-pattern-only' value='dashed' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='1' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' />
+              <text column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' />
+              <lod column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1xm3iba1bra49411vo8vt0flm9gm].[Multiple Values]</rows>
+        <cols>[federated.1xm3iba1bra49411vo8vt0flm9gm].[tyr:Datetime:qk]</cols>
+      </table>
+      <simple-id uuid='{D9FAD4A2-8A3B-490E-B4F0-B51D75661452}' />
+    </worksheet>
+    <worksheet name='Average Energy Trading With Other Countries'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='merged_dataset_final' name='federated.1xm3iba1bra49411vo8vt0flm9gm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xm3iba1bra49411vo8vt0flm9gm'>
+            <column datatype='datetime' name='[Datetime]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' caption='Germany &amp; Belgium' datatype='integer' name='[Trading with Germany-Belgium (MW)]' role='dimension' semantic-role='[Country].[Name]' type='ordinal' />
+            <column aggregation='Sum' caption='Italy' datatype='integer' name='[Trading with Italy (MW)]' role='dimension' semantic-role='[Country].[Name]' type='ordinal' />
+            <column aggregation='Sum' caption='Spain' datatype='integer' name='[Trading with Spain (MW)]' role='dimension' semantic-role='[Country].[Name]' type='ordinal' />
+            <column aggregation='Sum' caption='Switzerland' datatype='integer' name='[Trading with Switzerland (MW)]' role='dimension' semantic-role='[Country].[Name]' type='ordinal' />
+            <column-instance column='[Trading with Germany-Belgium (MW)]' derivation='Avg' name='[avg:Trading with Germany-Belgium (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Trading with Italy (MW)]' derivation='Avg' name='[avg:Trading with Italy (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Trading with Spain (MW)]' derivation='Avg' name='[avg:Trading with Spain (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Trading with Switzerland (MW)]' derivation='Avg' name='[avg:Trading with Switzerland (MW):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Datetime]' derivation='Year-Trunc' name='[tyr:Datetime:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Italy (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Spain (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Switzerland (MW):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Germany-Belgium (MW):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Italy (MW):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Spain (MW):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Switzerland (MW):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Trading with Germany-Belgium (MW):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' />
+              <text column='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1xm3iba1bra49411vo8vt0flm9gm].[Multiple Values]</rows>
+        <cols>[federated.1xm3iba1bra49411vo8vt0flm9gm].[tyr:Datetime:qk]</cols>
+      </table>
+      <simple-id uuid='{9D9B5E60-AD32-4EC7-8622-64CC1C37CEBE}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='AVG Energy Consuption By Hour'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{5BBEFE61-029B-476B-A317-9690547B2ACE}' />
+    </window>
+    <window class='worksheet' name='AVG Energy Consuption By Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1xm3iba1bra49411vo8vt0flm9gm].[avg:Consumption (MW):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{9E9C4E26-91F0-45E0-BC08-286010131CD3}' />
+    </window>
+    <window class='worksheet' name='Average Energy Consumption (MW) in France'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='2' param='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:CO2 emissions intensity (g/kWh):qk]' type='color' />
+            <card pane-specification-id='1' param='[federated.1xm3iba1bra49411vo8vt0flm9gm].[fVal:avg:Consumption (MW):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{49161C36-BD2A-42DC-B4F3-8DECDE22A462}' />
+    </window>
+    <window class='worksheet' name='Average Energy Consumption (MW) in France by Source'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='1' param='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{46D3C29A-D58D-4522-907D-15F39030DE7C}' />
+    </window>
+    <window class='worksheet' name='Average Energy Consumption (MW) in France by Source (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='2' param='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
+      <simple-id uuid='{B7511915-DDF5-4B4F-9E2A-0F14F8A60B98}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Average Energy Trading With Other Countries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='3' param='[federated.1xm3iba1bra49411vo8vt0flm9gm].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0D0F2633-3B45-4D37-AC8E-7DF2EEF4C6D6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Average Energy Trading With Other Countries' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
